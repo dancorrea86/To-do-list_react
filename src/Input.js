@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './Input.css';
 
 function Input() {
   return(
-    <header>
+    <header className="header">
       <input type="text"/>
       <button>Ok</button>
     </header>
